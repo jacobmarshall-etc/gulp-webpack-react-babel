@@ -1,0 +1,25 @@
+{
+  "name": "gulp-webpack-react-babel",
+  "version": "0.0.1",
+  "description": "An example of using Gulp, Webpack, React.js and Babel to build a frontend.",
+  "keywords": [
+    "gulp",
+    "webpack",
+    "react",
+    "babel"
+  ],
+  "author": "Jacob Marshall <jacob@manage.net.nz>",
+  "homepage": "https://github.com/jacobmarshall/gulp-webpack-react-babel",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "^5.3.3",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.7",
+    "react": "^0.14.1",
+    "react-dom": "^0.14.1",
+    "uglify-js": "^2.5.0",
+    "webpack": "^1.12.2",
+    "webpack-stream": "^2.1.1"
+  }
+}
