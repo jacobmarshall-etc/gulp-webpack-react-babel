@@ -1,6 +1,6 @@
 {
   "name": "gulp-webpack-react-babel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An example of using Gulp, Webpack, React.js and Babel to build a frontend.",
   "keywords": [
     "gulp",
