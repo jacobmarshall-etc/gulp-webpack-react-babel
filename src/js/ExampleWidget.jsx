@@ -31,8 +31,8 @@ class ExampleWidget extends Component {
                 <button onClick={() => this._updateBy(-5)}>-5</button>
                 <button onClick={() => this._updateBy(-1)}>-1</button>
                 <input value={this.state.value} readOnly />
-                <button onClick={() => this._updateBy(1)}>+1</button>
-                <button onClick={() => this._updateBy(5)}>+5</button>
+                <button onClick={() => this._updateBy(+1)}>+1</button>
+                <button onClick={() => this._updateBy(+5)}>+5</button>
             </div>
         );
     }
