@@ -1,3 +1,4 @@
+/* @flow */
 import React, { Component } from 'react';
 
 class ExampleWidget extends Component {

@@ -23,11 +23,11 @@ function build (watch, callback) {
         watch: watch,
         module: {
             loaders: [
-                { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' }
+                { test: /\.jsx?$/, exclude: /node_modules/, loader: 'babel-loader' }
             ]
         },
         devtool: "#source-map",
-        entry: path.resolve(__dirname, 'src/js/app.js'),
+        entry: path.resolve(__dirname, 'src/js/app.jsx'),
         output: {
             filename: 'app.js',
             path: path.resolve(__dirname, 'dist/js')
